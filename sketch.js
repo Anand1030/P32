@@ -46,7 +46,7 @@ function draw(){
 async function getBackgroundImg(){
 
     // write code to fetch time from API
-    var APIresponse = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+    var APIresponse = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
 
 
     //change the data in JSON format and store it in variable responseJSON
